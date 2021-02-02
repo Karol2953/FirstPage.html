@@ -34,5 +34,40 @@ body {
 }
 
 #list {
-    width: 880px;
+    width: 780px;
+    padding-left: 150px;
+}
+
+ol {
+    margin-top: 5px;
+}
+
+ol > li {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+ol > li > ul {
+    font-size: 18px;
+    text-transform: none;
+    font-weight: 400;
+    padding: 0px;
+    letter-spacing: 0px;
+    margin-top: 5px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+ol > li > ul > li {
+    margin: 0px;
+    color: #485b3b;
+}
+
+ol > li > ul > li:before {
+    color: #33402a;
+    content: "➤";
+    margin-right: 5px;
 }
