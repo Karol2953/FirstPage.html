@@ -5,6 +5,31 @@ body {
     font-size: 20px;
 }
 
+a:link /*(link nie odwiedzony)*/
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited /*(link odwiedzony)*/
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover /*(po najechaniu kursorem)*/
+{
+    color: #485b3b;
+    text-decoration: underline;
+}
+
+a:active /*(link aktywny)*/
+{
+    color: black;
+    text-decoration: none;
+}
+
+
 #logo {
 
     width: 100%;
@@ -70,4 +95,21 @@ ol > li > ul > li:before {
     color: #33402a;
     content: "➤";
     margin-right: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.scrollup {
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url("img/up.png") no-repeat 0px 0px;
+    position: fixed; /*pozycja przypisana na stałe*/
+    right: 50px;
+    bottom: 50px;
+    display: none;
 }
