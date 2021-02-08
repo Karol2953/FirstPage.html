@@ -14,7 +14,7 @@
                 $.scrollTo(0);
 
                 $("#link1").click(function () {
-                    $.scrollTo($("#maskCRT"), 500);
+                    $.scrollTo($("#construction"), 500);
                 });
                 $("#link2").click(function () {
                     $.scrollTo($("#how_It_works"), 500);
@@ -22,8 +22,27 @@
                 $("#link3").click(function () {
                     $.scrollTo($("#maskCRT"), 500);
                 });
+                $("#link4").click(function () {
+                    $.scrollTo($("#adv_disadv"), 500);
+                });
+                $("#link5").click(function () {
+                    $.scrollTo($("#adv_disadv"), 500);
+                });
+                $("#link6").click(function () {
+                    $.scrollTo($("#adv_disadv"), 500);
+                });
+                $("#link7").click(function () {
+                    $.scrollTo($("#adv_disadv"), 500);
+                });
+                $("#link8").click(function () {
+                    $.scrollTo($("#adv_disadv"), 500);
+                });
+                $("#link9").click(function () {
+                    $.scrollTo($("#adv_disadv"), 500);
+                });
+
                 $(".scrollup").click(function () {
-                    $.scrollTo($("body"), 10000);
+                    $.scrollTo($("body"), 1000);
                 });
 
 
@@ -48,18 +67,18 @@
         <ol>
             <li>Cathode ray tube monitor CRT
                 <ul>
-                    <li>Construction of monitor</li>
+                    <li><a id="link1" href="#">Construction of monitor</a></li>
                     <li><a id="link2" href="#">Principle of operation</a></li>
                     <li><a id="link3" href="#">Kind of mask in monitors</a></li>
-                    <li>Advantages and disadvantages</li>
+                    <li><a id="link4" href="#">Advantages and disadvantages</a></li>
                 </ul>
             </li>
             <li>Liquid crystal display LCD
                 <ul>
-                    <li>Construction of monitor</li>
-                    <li>Principle of operation</li>
-                    <li>Kind of mask in monitors</li>
-                    <li>Advantages and disadvantages</li>
+                    <li><a id="link5" href="#">Construction of monitor</a></li>
+                    <li><a id="link6" href="#">Principle of operation</a></li>
+                    <li><a id="link7" href="#">Kind of mask in monitors</a></li>
+                    <li><a id="link8" href="#">Advantages and disadvantages</a></li>
                 </ul>
             </li>
             <li>Ways connect monitor
@@ -82,7 +101,7 @@
 
     <div class="slajd">
 
-        <h1>Budowa monitora CRT</h1>
+        <h1 id="construction">Budowa monitora CRT</h1>
 
         CRT to akronim od <strong>Cathode-Ray Tube</strong>, czyli lampy kineskopowej wyposażonej w działo elektronowe.
         W
@@ -220,7 +239,7 @@
 
     <div class="slajd">
 
-        <h1>Wady i zalety monitorów CRT</h1>
+        <h1 id="adv_disadv">Wady i zalety monitorów CRT</h1>
 
         Wybór rodzaju monitora zależy najbardziej od jego przeznaczenia. Monitory CRT zostały praktycznie całkowicie
         wyparte
